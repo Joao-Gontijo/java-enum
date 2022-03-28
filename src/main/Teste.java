@@ -12,5 +12,9 @@ public class Teste {
 		System.out.println(pMax.compareTo(pNormal));
 		System.out.println(pMin.name());
 		System.out.println(pMax.ordinal());
+		
+		System.out.println(pMin.getValor());
+		System.out.println(pNormal.getValor());
+		System.out.println(pMax.getValor());
 	}
 }
